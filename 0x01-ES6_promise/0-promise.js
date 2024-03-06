@@ -1,7 +1,7 @@
-function getResponseFromAPI() {
-    return new Promise((resolve, reject) => {
-        resolve("Dummy response from API");
-    });
+export default function getResponseFromAPI() {
+  let myPromise = new Promise(function (myResolve, myReject) {
+    myResolve();
+    myReject();
+  });
+  return myPromise;
 }
-
-export default getResponseFromAPI;

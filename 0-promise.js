@@ -1,8 +1,10 @@
 function getResponseFromAPI() {
     return new Promise((resolve, reject) => {
-        // Here you can perform asynchronous operations, such as fetching data from an API
-        // For now, let's just resolve the Promise with a dummy response
-        resolve("Dummy response from API");
+        // Simulate an API call or any asynchronous operation
+        setTimeout(() => {
+            // Resolve the Promise with a dummy response
+            resolve("Response from API");
+        }, 2000); // Simulating a delay of 2 seconds
     });
 }
 

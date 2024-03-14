@@ -2,10 +2,10 @@
 
 namespace Subjects {
     export class Subject {
-        protected _teacher: Teacher;
+        teacher: Teacher;
 
         setTeacher(teacher: Teacher) {
-            this._teacher = teacher;
+            this.teacher = teacher;
         }
     }
 }
